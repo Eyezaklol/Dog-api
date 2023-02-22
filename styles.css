@@ -1,0 +1,44 @@
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.spinner {
+    font-size: 50px;
+    text-align: center;
+    animation: 2s spin linear infinite;
+    display: none;
+}
+.dog-img{
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+ .doggos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.breeds {
+    margin: 0 auto;
+    border: 2px;
+    display: block;
+    border: black;
+}
+
+
+body {
+  background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+    font-family: 'Brush Script MT', cursive;
+}
+
